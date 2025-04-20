@@ -264,7 +264,6 @@ align-items: center;
     flex-direction: column;
     align-items: center;
     font-size: 16px;
-    width: 80px;
     color: var(--white);
     border-radius: 10px;
     text-transform: uppercase;
@@ -300,8 +299,8 @@ margin-bottom: 5px;
 
 .cruelty-badge {
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 60%;
+  left: 47%;
   transform: translate(-50%, -50%);
   background: var(--textColorAccent);
   padding: 8px 16px;
