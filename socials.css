@@ -309,4 +309,43 @@ margin-bottom: 5px;
   font-size: 80px!important;
   z-index: 2;
 }
+.play-title {
+  font-size: var(--title-size);
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.play-cont {
+  width: 100%;
+}
+
+.play-song {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: var(--border);
+  padding-bottom: 10px;
+  margin-top: 10px;
+}
+
+.play-icon {
+  display: flex;
+  width: 10%;
+  height: 50px;
+  background: var(--contrast);
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+  color: var(--white);
+  margin-top: 10px;
+}
+
+.play-info {
+  display: flex;
+  align-items: center;
+}
+
 
