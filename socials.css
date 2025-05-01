@@ -347,4 +347,45 @@ margin-bottom: 5px;
   align-items: center;
 }
 
+.likr1{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.likr1 img{
+  width: 80px;
+  border-radius: 50%;
+  outline: 2px solid var(--contrast);
+  border: 2px solid var(--white);
+}
+.liksq {
+  width: 45px;
+  height: 45px;
+  background: var(--neutral);
+  border: 2px solid var(--neutralLighter);
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  
+}
+.liktxt {
+width: 165px;
+  height: 45px;
+  background: var(--neutral);
+  border: 2px solid var(--neutralLighter); 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  
+}
+.likr2 {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
 
