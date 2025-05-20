@@ -1,0 +1,113 @@
+:root {
+  color-scheme: light;
+  --header: url('https://i.imgur.com/BgNlJPj.gif');
+  --fondgen: url('https://i.imgur.com/DPIXcUk.jpeg');
+  --fondmin: url('https://i.imgur.com/g6AAVnI.png');
+  --texture: url('https://i.postimg.cc/MT7DPYL8/temp-Imaged8-QUDU.avif');
+  
+  --grad: linear-gradient(to right, #65b7c6, #d7d9d8, #d63333);
+
+  --neutral: #f0f0f0;
+  --neutralDark: #f2f4f9;
+  --neutralDarker: #dce3f4;
+  --neutralLighter: #f7f7f7;
+  
+  --transfond: rgba(240, 240, 240, 0.5);
+  --fondpa: rgba(255, 255, 255, 0.89);
+  
+  --white: #ffffff;
+
+  --contrast: #5b9da8;
+  --contrastLight: #94ced8;
+  --contrastLighter: #c3c8f3;
+
+  --accentClr: #4b57c5;
+  --accentClrDark: #333c92;
+
+  --textColor: #1d2227;
+  --textColorAccent: #871c29;
+
+  --border: 1px solid #f3f3f3;
+
+  --shadowBox: 0 0 20px #23265730;
+  --shad: -3px 1px 1px rgba(101, 183, 198, 1), 
+               1px 1px 5px rgba(214, 51, 51, 1);
+
+  --little-size: 12px;
+  --normal-size: 14px;
+  --medium-size: 16px;
+  --large-size: 18px;
+  --title-size: 22px;
+
+  --font: 'Poppins', sans-serif;
+  --font2: 'Bakbak One', cursive;
+}
+
+.a {
+  color: var(--contrast) !important;
+  text-decoration: none;
+}
+
+#link {
+  color: var(--contrast);
+  text-decoration: none;
+}
+
+flab {
+  color: var(--contrast);
+  background: var(--neutral);
+  line-height: normal;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 5px 0;
+  display: block;
+}
+
+fline {
+  box-shadow: inset 0 -3px 0 var(--contrast);
+}
+
+fline2 {
+  box-shadow: inset 0 -3px 0 var(--textColorAccent);
+}
+
+labb {
+  background: var(--contrast);
+  color: var(--white);
+  padding: 0 2px;
+}
+
+labb2 {
+  background: var(--textColorAccent);
+  color: var(--white);
+  padding: 0 2px;
+}
+
+labb3 {
+  background: var(--neutral);
+  padding: 0 2px;
+}
+
+labi {
+  font-style: italic;
+  color: var(--contrast);
+}
+
+labi2 {
+  font-style: italic;
+  color: var(--textColorAccent);
+}
+
+labo {
+  font-weight: 700;
+  color: var(--contrast);
+  text-transform: uppercase;
+}
+
+labo2 {
+  font-weight: 700;
+  color: var(--textColorAccent);
+  text-transform: uppercase;
+}
