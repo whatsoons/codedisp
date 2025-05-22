@@ -21,7 +21,7 @@
 #FAM {
   display: grid;
   grid-template-rows: max-content max-content 1fr;
-  color: var(--FAM-fontClr);
+  color: var(--textColor);
   font-size: var(--FAM-fontSize);
   background: var(--white);
   position: fixed;
