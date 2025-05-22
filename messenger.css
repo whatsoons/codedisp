@@ -774,7 +774,7 @@ strong.FAM-page-link {
 
 .FAM-msg-text {
   font-size: 14px;
-  background: var(--FAM-msgBackground);
+  background: var(--white);
   border-radius: 17px 17px 17px 6px;
   padding: 8px 20px 8px 15px;
 }
