@@ -85,9 +85,13 @@
 
 /* Entête de la fenetre */
 #FAM-toolbar {
-  color: var(--FAM-titleClr);
-  position: relative;
-  margin: 20px 15px 15px;
+color: var(--white);
+position: relative;
+margin: 20px 15px 15px;
+background: var(--fondgen);
+background-size: cover;
+padding: 5px;
+box-sizing: border-box;
 }
 
 #FAM-toolbar-inner {
@@ -95,13 +99,18 @@
   justify-content: space-between;
   align-items: center;
   gap: 15px;
+  padding: 
+    
 }
 
 /* Bouton flèche de retour */
 .FAM-toolbar-button {
   color: var(--FAM-button);
-  font-size: 24px;
+  font-size: 28px;
   cursor: pointer;
+}
+.FAM-menu-option {
+  font-size: 28px;
 }
 
 /* Titre de la fenetre */
@@ -127,8 +136,7 @@
   display: grid;
   grid-template-rows: 1fr max-content;
   overflow: auto;
-  background: var(--FAM-chatBackground);
-  border-radius: 10px 10px 0 0;
+  background: var(--neutral);
   margin: 10px 15px 0 15px;
 }
 
@@ -447,7 +455,7 @@ hr.FAM-hr {
 }
 
 .FAM-buttons-container > button {
-  color: var(--FAM-accentClr);
+  color: var(--textColorAccent);
   background-color: transparent;
   font-size: 20px;
   border: none;
@@ -760,7 +768,7 @@ strong.FAM-page-link {
 }
 
 .FAM-my-msg .FAM-msg-text {
-  background: var(--FAM-myMsgBackground);
+  background: var(--contrastLighter);
   border-radius: 17px 17px 6px 17px;
   padding: 8px 15px 8px 20px;
   float: right;
@@ -1226,7 +1234,7 @@ blockquote.FAM-codebox > div {
 }
 
 .FAM-tab:hover {
-  background: var(--FAM-accentClr);
+  background: var(--textColorAccent);
   color: var(--FAM-pluginBackground);
 }
 
@@ -1236,7 +1244,7 @@ blockquote.FAM-codebox > div {
 
 .FAM-tab.FAM-tab-active {
   font-weight: 700;
-  background: var(--FAM-accentClr);
+  background: var(--contrast);
   color: var(--FAM-pluginBackground);
 }
 
