@@ -1163,7 +1163,7 @@ blockquote.FAM-codebox > div {
 }
 
 #FAM-tab-add:hover {
-  background: var(--FAM-accentClr);
+  background: var(--textColorAccent);
   color: var(--FAM-pluginBackground);
 }
 
