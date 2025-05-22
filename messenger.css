@@ -1231,7 +1231,7 @@ blockquote.FAM-codebox > div {
 
 .FAM-tab:hover {
   background: var(--contrast);
-  color: var(--textColor);
+  color: var(--white);
 }
 
 .FAM-tab:hover i {
@@ -1241,7 +1241,7 @@ blockquote.FAM-codebox > div {
 .FAM-tab.FAM-tab-active {
   font-weight: 700;
   background: var(--contrast);
-  color: var(--textColor);
+  color: var(--white);
 }
 
 .FAM-tab-name {
