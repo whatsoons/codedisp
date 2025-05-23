@@ -24,18 +24,17 @@
   color: var(--textColor);
   font-size: var(--FAM-fontSize);
   background: var(--white);
-  position: fixed;
-  height: 100%;
-  width: 90%;
-  max-width: var(--FAM-windowSize);
+    position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: var(--FAM-windowSize, 320px);
   z-index: 99;
-  visibility: visible;
-  opacity: 1;
-  bottom: 0px;
-  transition-property: top, right, bottom, left, height, width, margin, opacity, visibility;
-  transition-duration: 700ms;
-  grid-template-columns: 100%;
-  transition: left 0.4s ease-in-out;
+  transform: translateX(-100%);
+  opacity: 0;
+  transition: transform 0.4s ease-in-out, opacity 0.4s ease-in-out;
+  pointer-events: none;
+  height: 100%;
 }
 
 /* Fenetre fermée */
@@ -43,6 +42,12 @@
   visibility: hidden;
   opacity: 0;
   left: calc(-100% + 65px);
+}
+
+#FAM[data-hidden="false"] {
+  transform: translateX(0);
+  opacity: 1;
+  pointer-events: auto;
 }
 
 #FAM.FAM-embedded {
