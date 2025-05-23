@@ -35,6 +35,7 @@
   transition-property: top, right, bottom, left, height, width, margin, opacity, visibility;
   transition-duration: 700ms;
   grid-template-columns: 100%;
+  transition: left 0.4s ease-in-out;
 }
 
 /* Fenetre fermée */
