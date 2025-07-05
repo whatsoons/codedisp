@@ -580,7 +580,7 @@ hr.FAM-hr {
 
 .FAM-forum .FAM-chat-avatar,
 .FAM-forum .FAM-chat-content {
-  background-color: var(--FAM-pluginBackground);
+  background-color: var(--white);
 }
 
 .FAM-forum + .FAM-topic > .FAM-topic-name,
