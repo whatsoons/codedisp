@@ -150,6 +150,7 @@ box-sizing: border-box;
   text-overflow: ellipsis;
   flex-grow: 99;
   margin: 0;
+  background: none;
 }
 
 
