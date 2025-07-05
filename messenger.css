@@ -657,7 +657,7 @@ hr.FAM-hr {
 .FAM-new-post,
 .FAM-new-post a,
 .FAM-new-post .FAM-chat-title {
-  color: var(--FAM-titleClr);
+  color: var(--textColorAccent);
   font-weight: bold !important;
 }
 
