@@ -533,6 +533,7 @@ hr.FAM-hr {
 .FAM-chat:hover .FAM-chat-avatar,
 .FAM-chat:hover .FAM-chat-content {
   background-color: var(--FAM-pluginBackground);
+  height: 100%;
 }
 
 .FAM-forum-name,
