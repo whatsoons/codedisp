@@ -136,6 +136,7 @@ box-sizing: border-box;
   color: var(--FAM-button);
   font-size: 28px;
   cursor: pointer;
+  margin-left: 50px;
 }
 .FAM-menu-option {
   font-size: 28px;
