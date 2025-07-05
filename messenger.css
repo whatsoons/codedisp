@@ -522,7 +522,7 @@ hr.FAM-hr {
   cursor: pointer;
   display: grid;
   grid-template-columns: max-content 1fr;
-  color: var(--FAM-fontLightClr);
+  color: var(--textColor);
 }
 
 .FAM-chat:hover,
