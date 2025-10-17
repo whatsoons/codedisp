@@ -1346,3 +1346,83 @@ blockquote.FAM-codebox > div {
   padding: 10px;
   z-index: 999;
 }
+
+/***FICHES PAR WATSON****/
+  .ftit {
+text-align: center;
+text-transform: uppercase;
+font-size: 20px;
+font-weight: 500;
+background: var(--fondgen);
+background-size: cover;
+width: 500px;
+height: 35px;
+border-radius: 10px 10px 0 0;
+line-height: 35px;
+color: var(--white);
+padding-right: 10px;
+font-family: var(--font2);
+box-sizing: border-box;
+}
+.ffond {
+width: 500px;
+background: var(--white);
+padding: 10px;
+border: var(--border);
+box-sizing: border-box;
+color: var(--textColor);
+text-align: justify;
+}
+
+.fbloc1, .fblocliens {
+  display: flex;
+  flex-flow: column wrap;
+  height: 320px;
+  justify-content: space-between;
+  align-content: space-between;
+  margin-bottom: 10px;
+  text-align: justify;
+}
+.fbloc1 img{
+  max-width: 100px;
+  max-height: 100px;
+object-fit: cover;
+}
+
+.sender {
+background: var(--contrast);
+border-radius: 5px;
+color: #fff;
+padding: 5px;
+max-width: 60%;
+margin-top: 10px;
+}
+.receiver {
+background: var(--textColorAccent);
+border-radius: 5px;
+color: #fff;
+padding: 5px;
+max-width: 60%;
+  margin-top: 10px;
+}
+.phoneconvo {
+  display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+align-items: flex-start;
+align-content: baseline;
+gap: 5px;
+}
+.phoneconvo2 {
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+justify-content: flex-end;
+align-items: flex-start;
+align-content: baseline;
+gap: 5px;
+}
+
+.imgleft{height:100px;float:left;width:auto;padding:5px}
+.imgright{width:auto;height:100px;float:right;padding:5px}
+
