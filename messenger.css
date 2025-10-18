@@ -1426,3 +1426,53 @@ gap: 5px;
 .imgleft{height:100px;float:left;width:auto;padding:5px}
 .imgright{width:auto;height:100px;float:right;padding:5px}
 
+/********LINK SLIDE*********/
+.linklab {
+  width: 300px;
+  height: 100%;
+  background: var(--neutral);
+  padding: 10px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+}
+.llab_links {
+ display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  border-bottom: 1px solid var(--white);
+  margin-bottom: 10px;
+}
+
+.llab_links a {
+  padding: 4px 8px;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+.llab_links a:hover {
+  background: var(--white);
+}
+
+.link-slide {
+  position: fixed;
+  top: 0;
+  left: -300px; /* width + padding */
+  width: 300px;
+  height: 100vh;
+  background: var(--neutralDark);
+  z-index: 999;
+  transition: left 0.4s ease-in-out;
+  box-shadow: 2px 0 8px rgba(0,0,0,0.1);
+  overflow-y: auto;
+}
+
+.link-slide.active {
+  left: 0;
+}
+
