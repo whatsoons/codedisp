@@ -76,6 +76,7 @@ display: grid;
 place-items: center;
   z-index: 9999 !important;
   pointer-events: auto !important;
+  line-height: 13px;
 } 
 .linksnav:hover {
   background: var(--contrast);
@@ -99,6 +100,7 @@ display: grid;
 place-items: center;
   z-index: 9999 !important;
   pointer-events: auto !important;
+  line-height: 18px;
 }
 
 #FAM-button-open:hover {
