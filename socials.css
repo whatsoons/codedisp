@@ -387,4 +387,34 @@ width: 165px;
   gap: 5px;
 }
 
+.sh-carousel{
+  width:200px;
+  height:320px;
+  position:relative;
+}
+
+.sh-carousel .sh-slide{
+  width:200px;
+  display:none;
+}
+
+.sh-carousel .sh-slide.is-active{
+  display:block;
+}
+
+.sh-carousel .sh-btn{
+  position:absolute;
+  top:50%;
+  transform:translateY(-50%);
+  font-size:26px;
+  cursor:pointer;
+  z-index:5;
+  user-select:none;
+  padding:2px 6px;
+  line-height:1;
+}
+
+.sh-carousel .sh-btn.prev{ left:-18px; }
+.sh-carousel .sh-btn.next{ right:-18px; }
+
 
