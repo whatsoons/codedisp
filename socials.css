@@ -417,4 +417,103 @@ width: 165px;
 .sh-carousel .sh-btn.prev{ left:-18px; }
 .sh-carousel .sh-btn.next{ right:-18px; }
 
+###### CODES EKKO ########
+.fichead {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--neutral);
+  height: auto;
+  width: 100%; 
+  text-align: justify;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 0; 
+  position: relative;
+}
+.contfichead {
+  width: 574px; 
+}
+.conttlad {
+  display: flex;
+  align-items: center; 
+  justify-content: flex-start; 
+  width: 103%; 
+}
+.boxtl {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--neutral);
+  margin-bottom: 5px;
+  height: 60px;
+  width: 500px;
+  border-radius: 10px;
+}
+
+.tlad {
+  display: flex;
+  font-family: Cinzel;
+  border-bottom: 1px solid var(--textColorAccent);
+  font-size: medium;
+}
+
+.numberad {
+  width: 20px;
+  background-color: var(--neutral);
+  border-radius: 5px;
+  padding: 0 2px 0 2px;
+  color: var(--textColorAccent);
+  font-family: Cinzel;
+  margin: 0 3px 3px;
+  text-align: center;
+}
+
+.fichetext {
+  display: block;
+  padding: 10px;
+  text-align: left;
+}
+
+.boxq {
+  width: 100%;
+  min-height: 200px;
+  background-color: var(--white);
+  border-radius: 5px;
+}
+.boxsig {
+  font-size: 11px;
+  display: flex;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--white);
+  margin-top: 10px;
+  padding: 5px 0;
+}
+
+.imgad1 {
+  margin-right: 4px;
+  width: 70px;
+  min-height: 60px;
+  padding: 3px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  background: var(--neutral);
+  object-fit: cover;
+}
+
+.stl {
+  font-size: 14px;
+  text-align: center;
+}
+
+.preztl {
+  font-size: 18px;
+  font-weight: bold;
+  padding-bottom: 5px;
+  border-bottom: 1px solid var(--textColorAccent);
+  margin: 5px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
 
