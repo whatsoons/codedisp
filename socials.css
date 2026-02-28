@@ -437,7 +437,7 @@ width: 165px;
   display: flex;
   align-items: center; 
   justify-content: flex-start; 
-  width: 103%; 
+  width: 100%; 
 }
 .boxtl {
   display: flex;
@@ -504,6 +504,7 @@ width: 165px;
 .stl {
   font-size: 14px;
   text-align: center;
+ color: var(--textColorAccent);
 }
 
 .preztl {
@@ -512,6 +513,7 @@ width: 165px;
   padding-bottom: 5px;
   border-bottom: 1px solid var(--textColorAccent);
   margin: 5px;
+ color: var(--contrast);
   text-transform: uppercase;
   text-align: center;
 }
@@ -534,6 +536,7 @@ width: 165px;
   flex-direction: row;
   justify-content: space-between; 
   align-items: center; 
+ margin-top: -8px;
 }
 
 .firpsec2 {
@@ -556,6 +559,7 @@ width: 165px;
   font-weight: bold;
   padding-bottom: 5px;
   border-bottom: 1px solid var(--textColorAccent);
+ color: var(--contrast);
   margin: 5px;
   text-transform: uppercase;
   text-align: center;
