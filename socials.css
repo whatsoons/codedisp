@@ -537,6 +537,7 @@ width: 165px;
   justify-content: space-between; 
   align-items: center; 
  margin-top: -8px;
+ color: var(--textColorAccent);
 }
 
 .firpsec2 {
@@ -656,7 +657,7 @@ width: 165px;
   background-color: var(--neutral);
   margin: 7px;
   height: 60px;
-  width: 594px;
+  width: 575px;
   border-radius: 10px;
 }
 
