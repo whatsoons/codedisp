@@ -516,4 +516,215 @@ width: 165px;
   text-align: center;
 }
 
+.ficherp2 {
+  display: flex;
+  flex-direction: column;
+  background-color: transparent;
+  height: auto;
+  width: 605px; 
+  text-align: justify;
+  padding: 7px;
+  position: relative; 
+}
 
+.firpsec1 {
+  display: flex;
+  flex-direction: row;
+    display: flex;
+  flex-direction: row;
+  justify-content: space-between; 
+  align-items: center; 
+}
+
+.firpsec2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.boxrptl2 {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--neutral);
+  margin-top: 7px;
+  height: 60px;
+  width: 614px;
+  border-radius: 10px;
+}
+
+.rptl {
+  font-size: 18px;
+  font-weight: bold;
+  padding-bottom: 5px;
+  border-bottom: 1px solid var(--textColorAccent);
+  margin: 5px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.twfiche {
+  flex: 1; 
+  margin-left: 14px; 
+  border-bottom: none; 
+}
+
+.tw-bar {
+  width: 100%; 
+  height: 1px; 
+  background-color: var(--textColorAccent); 
+  margin-top: 2px; 
+}
+
+.loc {
+  font-size: 14px;
+  text-align: left;
+  margin: 0 10px 0 30px;
+}
+
+.date {
+  font-size: 14px;
+}
+.bi-calendar, .bi-exclamation-triangle-fill, .bi-person-fill, .bi-geo-alt-fill {
+  margin-right: 5px;
+}
+.bi-person-fill {
+  font-size: 18px;
+}
+.tag {
+  display: flex;
+  font-size: 14px;
+  text-align: right;
+  margin-right: 30px;
+}
+
+.boxrp2 {
+  width: 100%;
+  min-height: 200px;
+  background-color: transparent;
+  border-radius: 10px;
+  margin-top: 10px;
+  border: 2px solid var(--textColorAccent);
+}
+
+.fichetext {
+  padding-left: 10px;
+  text-align: left;
+}
+
+.boxsig {
+  font-size: 11px;
+  display: flex;
+  height: 0;
+  border-radius: 5px;
+  padding: 5px;
+  justify-content: end;
+  align-items: center;
+}
+
+.ficherp {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--neutral);
+  height: auto;
+  width: 574px;
+  text-align: justify;
+  border-radius: 10px;
+  padding: 10px;
+  position: relative; 
+}
+
+.firpsec1 {
+  display: flex;
+  flex-direction: row;
+    display: flex;
+  flex-direction: row;
+  justify-content: space-between; 
+  align-items: center; 
+}
+
+.firpsec2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.boxrptl {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--neutral);
+  margin: 7px;
+  height: 60px;
+  width: 594px;
+  border-radius: 10px;
+}
+
+.rptl {
+  font-size: 18px;
+  font-weight: bold;
+  padding-bottom: 5px;
+  border-bottom: 1px solid var(--textColorAccent);
+  margin: 5px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.twfiche {
+  flex: 1; 
+  margin-left: 14px; 
+  border-bottom: none; 
+}
+
+.tw-bar {
+  width: 100%; 
+  height: 1px; 
+  background-color: var(--textColorAccent); 
+  margin-top: 2px; 
+}
+
+.loc {
+  display: flex;
+  font-size: 14px;
+  text-align: left;
+  margin: 0 10px 0 30px;
+}
+
+.date {
+  display: flex;
+  font-size: 14px;
+}
+
+.tag {
+  display: flex;
+  font-size: 14px;
+  text-align: right;
+  margin-right: 30px;
+}
+
+.boxrp {
+  width: 100%;
+  min-height: 100px;
+  background-color: var(--white);
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.fichetext {
+  padding-left: 10px;
+  text-align: left;
+}
+
+.boxsig {
+  font-size: 11px;
+  display: flex;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--white);
+  margin-top: 10px;
+  padding: 5px 0;
+}
+
+.bi-calendar, .bi-exclamation-triangle-fill, .bi-person-fill, .bi-geo-alt-fill {
+  margin-right: 5px;
+}
+.bi-person-fill {
+  font-size: 18px;
+}
