@@ -733,3 +733,44 @@ width: 165px;
 .bi-person-fill {
   font-size: 18px;
 }
+
+#dis-fiche-box {
+  display: grid;
+  background: var(--fondgen);
+  min-height: 300px;
+  width: 600px;
+  grid-template-columns: 150px 1fr;
+  border-radius: 10px;
+  padding: 5px;
+}
+.dis-sidebar {
+  border-width: 0 2px 0 0;
+  border-style: solid; 
+  border-image: var(--fondgen) 0 30 0 0 round;
+  padding: 7px;
+  background: white;
+  border-radius: 5px 0 0 5px;
+}
+.menu-sidebar {
+  display: flex;
+  top: 7px;
+  position: sticky;
+  justify-content: center;
+  flex-direction: column;
+}
+.dis-maincontent {
+  background: white;
+  padding: 7px;
+  text-align:justify;
+  border-radius: 0 5px 5px 0;
+}
+.dis-fiche-gif{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 7px;
+}
+.citation-fiche {
+  font-size: 12px;
+  text-align: justify;
+  margin-bottom: 7px;
+}
