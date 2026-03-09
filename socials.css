@@ -442,7 +442,7 @@ width: 165px;
 .boxtl {
   display: flex;
   flex-direction: column;
-  background-color: var(--neutral);
+  background-color: var(--white);
   margin-bottom: 5px;
   height: 60px;
   width: 500px;
@@ -548,7 +548,7 @@ width: 165px;
 .boxrptl2 {
   display: flex;
   flex-direction: column;
-  background-color: var(--neutral);
+  background-color: var(--white);
   margin-top: 7px;
   height: 60px;
   width: 600px;
@@ -628,7 +628,7 @@ width: 165px;
 .ficherp {
   display: flex;
   flex-direction: column;
-  background-color: var(--neutral);
+  background-color: var(--white);
   height: auto;
   width: 574px;
   text-align: justify;
@@ -706,7 +706,7 @@ width: 165px;
 .boxrp {
   width: 100%;
   min-height: 100px;
-  background-color: var(--white);
+  background-color: var(--neutral);
   border-radius: 5px;
   margin-top: 10px;
 }
@@ -722,7 +722,7 @@ width: 165px;
   border-radius: 5px;
   justify-content: center;
   align-items: center;
-  background-color: var(--white);
+  background-color: var(--neutral);
   margin-top: 10px;
   padding: 5px 0;
 }
