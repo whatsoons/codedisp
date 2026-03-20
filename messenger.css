@@ -1437,10 +1437,13 @@ gap: 5px;
   box-sizing: border-box;
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
+  flex-wrap: no-wrap;
   flex-direction: column;
   align-items: center;
 }
+.link-slide.active {
+  top: 45px;
+  left: 0px; }
 .llab_links {
  display: flex;
   justify-content: center;
