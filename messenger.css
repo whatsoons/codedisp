@@ -25,7 +25,7 @@
   font-size: var(--FAM-fontSize);
   background: var(--white);
     position: fixed;
-  top: 0;
+  top: 45px;
   left: 0;
   bottom: 0;
   width: var(--FAM-windowSize, 320px);
@@ -117,7 +117,7 @@ place-items: center;
 #FAM-toolbar {
 color: var(--white);
 position: relative;
-margin: 50px 15px 15px;
+margin: 10px 15px 15px;
 background: var(--fondgen);
 background-size: cover;
 padding: 5px;
