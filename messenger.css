@@ -1590,20 +1590,26 @@ x-bookmark-list button {
     background: none;
 }
 x-bookmark-list path {
-    fill: var(--textColorAccent);
+    fill: var(--contrast);
 }
 #bookmark-popover {
     border: none;
+    position: fixed;
+    top: 45px;
+    left: 0;
+    width: 478px;
+    max-width: 100%;
+    height: 95%;
+    padding: 0;
+    margin: 0;
     transform: translateX(-100%);
     opacity: 0;
     transition: transform 0.4s ease-in-out, opacity 0.4s ease-in-out, display 0.4s ease allow-discrete;
 }
-
 #bookmark-popover:popover-open {
     transform: translateX(0);
     opacity: 1;
 }
-
 @starting-style {
     #bookmark-popover:popover-open {
         transform: translateX(-100%);
@@ -1623,20 +1629,17 @@ x-bookmark-list path {
     z-index: -1;
 }
 #bookmark-popover .popover {
-    position: fixed;
+    position: relative;
     overflow: hidden;
-    top: 45px;
-    left: 0;
+    width: 100%;
+    height: 100%;
     padding: 15px 45px 15px 15px;
-    max-width: 100%;
-    width: 478px;
-    height: 95%;
     display: flex;
     flex-direction: column;
 }
 x-bookmark-button button {
     background: var(--white);
-    color: var(--textColorAccent);
+    color: var(--contrast);
     text-transform: uppercase;
     font-size: 14px;
     font-weight: 600;
