@@ -1594,14 +1594,19 @@ x-bookmark-list path {
 }
 #bookmark-popover {
     border: none;
+    transform: translateX(-100%);
     opacity: 0;
-    transition: opacity 0.5s ease, display 0.5s ease allow-discrete;
+    transition: transform 0.4s ease-in-out, opacity 0.4s ease-in-out, display 0.4s ease allow-discrete;
 }
+
 #bookmark-popover:popover-open {
+    transform: translateX(0);
     opacity: 1;
 }
+
 @starting-style {
     #bookmark-popover:popover-open {
+        transform: translateX(-100%);
         opacity: 0;
     }
 }
