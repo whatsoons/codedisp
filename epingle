@@ -1,0 +1,161 @@
+#bookmark-button-open {
+    color: var(--textColor);
+    font-size: 18px;
+    background-color: var(--neutralDark);
+    border-radius: 10px;
+    width: 45px;
+    height: 45px;
+    cursor: pointer;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+#bookmark-button-open:hover {
+    color: var(--accentClr);
+}
+#bookmark-popover:popover-open ~ #bookmark-button-open,
+#bookmark-button-open:active {
+    background: var(--accentClr);
+    color: var(--neutralDark);
+}
+#bookmark-popover h1 {
+    text-align: left;
+    margin: 0;
+}
+x-bookmark-list {
+    height: calc(100vh - 130px);
+    display: block;
+    margin-bottom: 15px;
+}
+#bookmark-list a {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    padding: 0 10px;
+    margin: 10px 0;
+    width: 100%;
+}
+#bookmark-list div {
+    display: flex;
+    background: var(--neutralDark);
+    border-radius: 5px;
+    margin-top: 15px;
+}
+#bookmark-list input[type="checkbox"] {
+    display: none;
+}
+#bookmark-list input[type="checkbox"] + div label {
+    width: 60px;
+    height: 20px;
+    border-radius: 20px;
+    position: relative;
+    margin: auto 0;
+    flex-shrink: 0;
+    cursor: pointer;
+}
+x-bookmark-list input[type="checkbox"] + div label::before {
+    font-size: 11px;
+    color: #fff;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0 5px;
+}
+x-bookmark-list input[type="checkbox"] + div label::after {
+    content: '';
+    display: block;
+    width: 16px;
+    height: 16px;
+    border-radius: 18px;
+    background-color: #fff;
+    position: absolute;
+    top: 2px;
+}
+#bookmark-list input[type="checkbox"]:checked + div {
+    opacity: 0.30;
+}
+#bookmark-list input[type="checkbox"]:checked + div label {
+    background-color: #719E3B;
+}
+x-bookmark-list input[type="checkbox"]:checked + div label::before {
+    content: 'fait';
+    justify-content: flex-end;
+}
+x-bookmark-list input[type="checkbox"]:checked + div label::after {
+    left: 2px;
+}
+x-bookmark-list input[type="checkbox"]:not(:checked) + div label {
+    background-color: #CB3F3F;
+}
+x-bookmark-list input[type="checkbox"]:not(:checked) + div label::before {
+    content: 'à faire';
+    justify-content: flex-start;
+}
+x-bookmark-list input[type="checkbox"]:not(:checked) + div label::after {
+    right: 2px;
+}
+x-bookmark-list button {
+    flex-shrink: 0;
+    padding: 0px !important;
+    margin: auto 10px;
+    display: flex;
+    background: transparent;
+    opacity: 0.25;
+}
+x-bookmark-list path {
+    fill: var(--contrastLight);
+}
+#bookmark-popover {
+    border: none;
+}
+#bookmark-popover .popover::after {
+    content: '';
+    display: block;
+    top: 0;
+    left: 0;
+    width: calc(100% - 30px);
+    height: 100%;
+    position: absolute;
+    background: var(--neutral);
+    box-shadow: 0 0 20px var(--neutralDarker);
+    z-index: -1;
+}
+#bookmark-popover .popover {
+    animation: fadeOut 0.5s forwards;
+}
+#bookmark-popover:popover-open .popover {
+    animation: fadeIn 0.5s forwards;
+}
+#bookmark-popover .popover {
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    left: 65px;
+    padding: 15px 45px 15px 15px;
+    max-width: 100%;
+    width: 478px;
+    height: 100%;
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        translate: -1em 0;
+    }
+
+    to {
+        opacity: 1;
+        translate: 0 0;
+    }
+}
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+        translate: 0 0;
+    }
+
+    to {
+        opacity: 0;
+        translate: 1em 0;
+    }
+}
