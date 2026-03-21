@@ -1604,10 +1604,11 @@ x-bookmark-list path {
     z-index: -1;
 }
 #bookmark-popover .popover {
-    animation: fadeOut 0.5s forwards;
+    opacity: 0;
+    transition: opacity 0.2s ease;
 }
 #bookmark-popover:popover-open .popover {
-    animation: fadeIn 0.5s forwards;
+   opacity: 1;
 }
 #bookmark-popover .popover {
 position: fixed;
