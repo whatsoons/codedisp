@@ -1,22 +1,17 @@
 #bookmark-button-open {
-    color: var(--textColor);
+    color: var(--white);
     font-size: 18px;
-    background-color: var(--neutralDark);
-    border-radius: 10px;
-    width: 45px;
-    height: 45px;
     cursor: pointer;
     display: grid;
     justify-content: center;
     align-items: center;
 }
 #bookmark-button-open:hover {
-    color: var(--accentClr);
+    color: var(--neutral);
 }
 #bookmark-popover:popover-open ~ #bookmark-button-open,
 #bookmark-button-open:active {
-    background: var(--accentClr);
-    color: var(--neutralDark);
+    color: var(--white);
 }
 #bookmark-popover h1 {
     text-align: left;
@@ -38,7 +33,7 @@ x-bookmark-list {
 }
 #bookmark-list div {
     display: flex;
-    background: var(--neutralDark);
+    background: var(--white);
     border-radius: 5px;
     margin-top: 15px;
 }
