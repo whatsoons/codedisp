@@ -1629,3 +1629,10 @@ flex-direction: column;
 #bookmark-popover:popover-open .popover {
     opacity: 1;
 }
+x-bookmark-button button {
+background: var(--white);
+color: var(--contrast);
+text-transform: uppercase;
+font-size: 14px;
+font-weight: 600;
+}
