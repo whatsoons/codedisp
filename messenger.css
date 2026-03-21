@@ -1584,8 +1584,7 @@ x-bookmark-list button {
     margin: auto 10px;
     display: flex;
     opacity: 0.25;
-  background: var(--contrast);
-color: var(--white);
+color: var(--contrast);
 }
 x-bookmark-list path {
     fill: var(--contrastLight);
