@@ -1489,16 +1489,16 @@ gap: 5px;
     display: grid;
     justify-content: center;
     align-items: center;
-  background: none;
+    background: none;
 }
 #bookmark-button-open:hover {
     color: var(--neutral);
-  background: none;
+    background: none;
 }
 #bookmark-popover:popover-open ~ #bookmark-button-open,
 #bookmark-button-open:active {
     color: var(--white);
-  background: none;
+    background: none;
 }
 #bookmark-popover h1 {
     text-align: left;
@@ -1508,7 +1508,7 @@ x-bookmark-list {
     flex: 1;
     display: block;
     margin-bottom: 15px;
-  overflow-y: auto;
+    overflow-y: auto;
 }
 #bookmark-list a {
     display: -webkit-box;
@@ -1583,13 +1583,23 @@ x-bookmark-list button {
     padding: 0px !important;
     margin: auto 10px;
     display: flex;
-  background: none;
+    background: none;
 }
 x-bookmark-list path {
     fill: var(--contrast);
 }
 #bookmark-popover {
     border: none;
+    opacity: 0;
+    transition: opacity 0.5s ease, display 0.5s ease allow-discrete;
+}
+#bookmark-popover:popover-open {
+    opacity: 1;
+}
+@starting-style {
+    #bookmark-popover:popover-open {
+        opacity: 0;
+    }
 }
 #bookmark-popover .popover::after {
     content: '';
@@ -1604,35 +1614,21 @@ x-bookmark-list path {
     z-index: -1;
 }
 #bookmark-popover .popover {
-    opacity: 0;
-    transition: opacity 0.2s ease;
-}
-#bookmark-popover:popover-open .popover {
-   opacity: 1;
-}
-#bookmark-popover .popover {
-position: fixed;
-overflow: hidden;
-top: 45px;
-left: 0;
-padding: 15px 45px 15px 15px;
-max-width: 100%;
-width: 478px;
-height: 95%;
- display: flex; 
-flex-direction: column;
-}
-#bookmark-popover .popover {
-    opacity: 0;
-    transition: opacity 0.2s ease;
-}
-#bookmark-popover:popover-open .popover {
-    opacity: 1;
+    position: fixed;
+    overflow: hidden;
+    top: 45px;
+    left: 0;
+    padding: 15px 45px 15px 15px;
+    max-width: 100%;
+    width: 478px;
+    height: 95%;
+    display: flex;
+    flex-direction: column;
 }
 x-bookmark-button button {
-background: var(--white);
-color: var(--contrast);
-text-transform: uppercase;
-font-size: 14px;
-font-weight: 600;
+    background: var(--white);
+    color: var(--contrast);
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
 }
