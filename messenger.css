@@ -1605,6 +1605,7 @@ x-bookmark-list path {
     transform: translateX(-100%);
     opacity: 0;
     transition: transform 0.4s ease-in-out, opacity 0.4s ease-in-out, display 0.4s ease allow-discrete;
+  background: none;
 }
 #bookmark-popover:popover-open {
     transform: translateX(0);
