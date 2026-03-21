@@ -1505,9 +1505,10 @@ gap: 5px;
     margin: 0;
 }
 x-bookmark-list {
-    height: calc(100vh - 130px);
+    flex: 1;
     display: block;
     margin-bottom: 15px;
+  overflow-y: auto;
 }
 #bookmark-list a {
     display: -webkit-box;
@@ -1619,6 +1620,8 @@ padding: 15px 45px 15px 15px;
 max-width: 100%;
 width: 478px;
 height: 95%;
+ display: flex; 
+flex-direction: column;
 }
 #bookmark-popover .popover {
     opacity: 0;
