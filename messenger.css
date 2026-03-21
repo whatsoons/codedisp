@@ -1489,13 +1489,16 @@ gap: 5px;
     display: grid;
     justify-content: center;
     align-items: center;
+  background: none;
 }
 #bookmark-button-open:hover {
     color: var(--neutral);
+  background: none;
 }
 #bookmark-popover:popover-open ~ #bookmark-button-open,
 #bookmark-button-open:active {
     color: var(--white);
+  background: none;
 }
 #bookmark-popover h1 {
     text-align: left;
@@ -1607,14 +1610,14 @@ x-bookmark-list path {
     animation: fadeIn 0.5s forwards;
 }
 #bookmark-popover .popover {
-    position: fixed;
-    overflow: hidden;
-    top: 0;
-    left: 65px;
-    padding: 15px 45px 15px 15px;
-    max-width: 100%;
-    width: 478px;
-    height: 100%;
+position: fixed;
+overflow: hidden;
+top: 45px;
+left: 0;
+padding: 15px 45px 15px 15px;
+max-width: 100%;
+width: 478px;
+height: 75%;
 }
 @keyframes fadeIn {
     from {
