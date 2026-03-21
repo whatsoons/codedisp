@@ -1583,11 +1583,10 @@ x-bookmark-list button {
     padding: 0px !important;
     margin: auto 10px;
     display: flex;
-    opacity: 0.25;
-color: var(--contrast);
+  background: none;
 }
 x-bookmark-list path {
-    fill: var(--contrastLight);
+    fill: var(--contrast);
 }
 #bookmark-popover {
     border: none;
