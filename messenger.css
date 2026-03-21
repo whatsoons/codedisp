@@ -1625,7 +1625,6 @@ x-bookmark-list path {
     height: 100%;
     position: absolute;
     background: var(--neutral);
-    box-shadow: 0 0 20px var(--neutralDarker);
     z-index: -1;
 }
 #bookmark-popover .popover {
