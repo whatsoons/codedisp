@@ -712,7 +712,7 @@ display: flex;
   color: #fff;
   font-size: 12px;
   text-decoration: none;
-  background: var(--contrastLight);
+  background: var(--contrast);
   color: var(--white);
   display: inline-block;
   padding: 1px 6px 2px;
@@ -720,11 +720,11 @@ display: flex;
 }
 
 #FAM a.FAM-page-link:hover {
-  background: var(--contrastLight);
+  background: var(--textColorAccent);
 }
 
 #FAM a.FAM-page-link:active {
-  background: var(--contrastLight);
+  background: var(--contrast);
 }
 
 b.FAM-page-link,
