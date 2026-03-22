@@ -83,8 +83,7 @@ place-items: center;
   line-height: 13px;
 } 
 .linksnav:hover {
-  background: var(--contrast);
-  color: var(--white);
+  color: var(--neutral);
 } 
 
 /* Bouton pour ouvrir la fenetre */
