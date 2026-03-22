@@ -89,9 +89,9 @@ place-items: center;
 
 /* Bouton pour ouvrir la fenetre */
 #FAM-button-open {
-color: var(--contrast);
+color: var(--white);
 font-size: 18px;
-background-color: var(--neutral);
+background: none;
 border-radius: 50%;
 width: 35px;
 height: 35px;
@@ -108,12 +108,10 @@ place-items: center;
 }
 
 #FAM-button-open:hover {
-  background: var(--contrast);
-  color: var(--white);
+  color: var(--neutral);
 }
 
 #FAM[data-hidden="false"] ~ #FAM-button-open {
-  background: var(--contrastLight);
   color: var(--white);
 }
 
