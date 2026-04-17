@@ -1679,3 +1679,44 @@ padding-right: 10px;
   padding: 10px 16px;
   text-align: left;
 }
+
+.img-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 120px);
+  gap: 10px;
+  padding: 10px 0;
+}
+
+.img-cell {
+  position: relative;
+  width: 120px;
+  height: 120px;
+  overflow: hidden;
+}
+
+.img-cell img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  display: block;
+}
+
+.img-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  font-size: 12px;
+  line-height: 1.4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 8px;
+  opacity: 0;
+  transition: opacity 0.25s ease;
+}
+
+.img-cell:hover .img-overlay {
+  opacity: 1;
+}
