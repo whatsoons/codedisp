@@ -1676,7 +1676,6 @@ padding-right: 10px;
 }
 
 .flab-content {
-  padding: 10px 16px;
   text-align: left;
 }
 
@@ -1684,7 +1683,6 @@ padding-right: 10px;
  display: grid;
 grid-template-columns: repeat(3, 120px);
 gap: 10px 0;
-padding: 10px 0;
 justify-content: space-between;
 }
 
