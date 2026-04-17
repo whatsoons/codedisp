@@ -1641,3 +1641,37 @@ x-bookmark-button button {
     font-size: 14px;
     font-weight: 600;
 }
+
+/***SCOUTS****/
+.flab-spoiler {
+  list-style: none;
+}
+
+.flab-spoiler summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  list-style: none;
+}
+
+.flab-spoiler summary::-webkit-details-marker {
+  display: none;
+}
+
+.flab-spoiler summary::after {
+  content: "▼";
+  font-size: 12px;
+  margin-left: 10px;
+  transition: transform 0.3s ease;
+  color: #7a1a1a; /* match your dark red color */
+}
+
+.flab-spoiler[open] summary::after {
+  transform: rotate(180deg);
+}
+
+.flab-content {
+  padding: 10px 16px;
+  text-align: left;
+}
