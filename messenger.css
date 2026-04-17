@@ -1681,10 +1681,11 @@ padding-right: 10px;
 }
 
 .img-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 120px);
-  gap: 10px;
-  padding: 10px 0;
+ display: grid;
+grid-template-columns: repeat(3, 120px);
+gap: 10px 0;
+padding: 10px 0;
+justify-content: space-between;
 }
 
 .img-cell {
