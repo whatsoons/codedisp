@@ -1652,6 +1652,10 @@ x-bookmark-button button {
   align-items: center;
   justify-content: space-between;
   cursor: pointer;
+  background: var(--neutral);
+padding-left: 10px;
+box-sizing: border-box;
+padding-right: 10px;
 }
 
 .flab-spoiler summary::-webkit-details-marker {
