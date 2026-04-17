@@ -1652,7 +1652,6 @@ x-bookmark-button button {
   align-items: center;
   justify-content: space-between;
   cursor: pointer;
-  list-style: none;
 }
 
 .flab-spoiler summary::-webkit-details-marker {
@@ -1668,7 +1667,8 @@ x-bookmark-button button {
 }
 
 .flab-spoiler[open] summary::after {
-  transform: rotate(180deg);
+  content: "▲";  /* shows when open */
+  transform: none; /* remove the rotation since we're swapping characters */
 }
 
 .flab-content {
