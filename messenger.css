@@ -1366,6 +1366,7 @@ color: var(--white);
 padding-right: 10px;
 font-family: var(--font2);
 box-sizing: border-box;
+text-shadow: var(--textColorAccent) 2px 2px 2px;
 }
 .ffond {
 width: 500px;
