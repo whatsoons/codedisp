@@ -445,7 +445,6 @@ width: 165px;
   flex-direction: column;
   background-color: var(--white);
   margin-bottom: 5px;
-  height: 60px;
   width: 500px;
   border-radius: 10px;
 }
@@ -458,13 +457,12 @@ width: 165px;
 }
 
 .numberad {
-  width: 20px;
   background-color: var(--neutral);
   border-radius: 5px;
   padding: 0 2px 0 2px;
   color: var(--textColorAccent);
   font-family: Cinzel;
-  margin: 0 3px 3px;
+  margin: 0 5px;
   text-align: center;
 }
 
@@ -494,7 +492,6 @@ width: 165px;
 .imgad1 {
   margin-right: 4px;
   width: 70px;
-  min-height: 60px;
   padding: 3px;
   box-sizing: border-box;
   border-radius: 10px;
