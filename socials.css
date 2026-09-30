@@ -793,7 +793,7 @@ width: 165px;
 --bday-third:var(--contrastLight);
 --bday-fourth:var(--contrastLighter);
 
-width:700px;
+width:600px;
 max-width:100%;
 margin:20px auto;
 display:grid;
