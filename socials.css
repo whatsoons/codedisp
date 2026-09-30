@@ -786,3 +786,188 @@ width: 165px;
 .sig-div-gem { width:5px; height:5px; transform:rotate(45deg); }
 .sig-quote { font-family:serif; font-style:italic; font-size:12.5px; margin:0; line-height:1.55; }
 .sig-banner { margin-top:11px; }
+
+.bdaycard{
+--bday-main:var(--contrast);
+--bday-alt:var(--textColorAccent);
+--bday-third:var(--contrastLight);
+--bday-fourth:var(--contrastLighter);
+
+width:700px;
+max-width:100%;
+margin:20px auto;
+display:grid;
+grid-template-columns:1fr 1fr;
+position:relative;
+border:1px solid #e7d7c8;
+border-radius:12px;
+overflow:hidden;
+box-shadow:var(--shadowBox);
+background:#fffaf3;
+}
+
+.bdaycard:before{
+content:"";
+position:absolute;
+left:50%;
+top:12px;
+bottom:12px;
+width:1px;
+background:#e8d8c8;
+box-shadow:-10px 0 18px rgba(180,140,120,.08),10px 0 18px rgba(180,140,120,.08);
+z-index:2;
+}
+
+.bdaypanel{
+position:relative;
+padding:26px 24px 34px;
+min-height:320px;
+z-index:1;
+background:#fffaf3;
+}
+
+.bdaygarland{
+text-align:center;
+margin-bottom:18px;
+font-size:0;
+line-height:0;
+}
+
+.bdaygarland span{
+display:inline-block;
+width:0;
+height:0;
+margin:0 3px;
+border-left:10px solid transparent;
+border-right:10px solid transparent;
+border-top:18px solid var(--bday-main);
+}
+
+.bdaygarland span:nth-child(2n){
+border-top-color:var(--bday-alt);
+}
+
+.bdaygarland span:nth-child(3n){
+border-top-color:var(--bday-third);
+}
+
+.bdaygarland span:nth-child(4n){
+border-top-color:var(--bday-fourth);
+}
+
+.bdaymini{
+text-align:center;
+font:10px/1.4 Montserrat,Arial,sans-serif;
+letter-spacing:4px;
+text-transform:uppercase;
+color:var(--bday-alt);
+}
+
+.bdaytitle{
+margin-top:8px;
+text-align:center;
+font:38px/.9 "Playfair Display",Georgia,serif;
+color:var(--bday-main);
+}
+
+.bdaysub{
+margin-top:8px;
+text-align:center;
+font:16px/1.2 Georgia,serif;
+font-style:italic;
+color:#7b6c6a;
+}
+
+.bdayphoto{
+width:180px;
+height:145px;
+margin:20px auto 0;
+padding:8px;
+background:#fff;
+border:1px solid #ead8ca;
+box-shadow:6px 6px 0 var(--bday-main);
+transform:rotate(-2deg);
+}
+
+.bdayphoto img{
+width:100%;
+height:100%;
+display:block;
+object-fit:cover;
+object-position:center;
+}
+
+.bdayseal{
+width:88px;
+height:88px;
+position:absolute;
+left:24px;
+bottom:24px;
+display:flex;
+align-items:center;
+justify-content:center;
+padding:10px;
+border:1px solid var(--bday-main);
+border-radius:50%;
+background:#f7dfdb;
+color:var(--bday-main);
+font:11px/1.3 Montserrat,Arial,sans-serif;
+letter-spacing:2px;
+text-transform:uppercase;
+text-align:center;
+}
+
+.bdayinside{
+margin-bottom:12px;
+font:11px/1.4 Montserrat,Arial,sans-serif;
+letter-spacing:4px;
+text-transform:uppercase;
+color:var(--bday-main);
+}
+
+.bdayto{
+margin-bottom:12px;
+font:30px/.95 "Playfair Display",Georgia,serif;
+color:var(--bday-alt);
+}
+
+.bdaydate{
+display:inline-block;
+margin-bottom:16px;
+padding:5px 12px;
+border-radius:20px;
+background:var(--bday-main);
+color:#fff;
+font:10px/1.4 Montserrat,Arial,sans-serif;
+letter-spacing:2px;
+text-transform:uppercase;
+}
+
+.bdaymsg{
+min-height:150px;
+padding:16px;
+background:rgba(255,255,255,.58);
+border:1px dashed #ebd2c7;
+color:#5e4f4d;
+font:13px/1.7 Arial,sans-serif;
+text-align:justify;
+}
+
+.bdaysign{
+margin-top:14px;
+padding-bottom:30px;
+text-align:right;
+font:16px/1.2 Georgia,serif;
+font-style:italic;
+color:var(--bday-alt);
+}
+
+.bdayconfetti{
+position:absolute;
+right:18px;
+bottom:35px;
+font-size:14px;
+letter-spacing:6px;
+color:var(--bday-third);
+opacity:.85;
+}
