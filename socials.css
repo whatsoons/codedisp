@@ -971,3 +971,69 @@ letter-spacing:6px;
 color:var(--bday-third);
 opacity:.85;
 }
+
+
+/*******CARTES CALENDRIER PAR ZORYA********/
+.flipcard {
+  display: inline-block;
+  position: relative;
+  width: 200px;
+  height: 320px;
+  margin: 5px;
+  perspective: 1000px;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.flipcard::before,
+.flipcard img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  transition: transform .7s ease;
+}
+
+.flipcard::before {
+  content: "";
+  background: var(--card-bg) center/cover no-repeat;
+  z-index: 1;
+}
+
+.flipcard img {
+  display: block;
+  object-fit: cover;
+  transform: rotateY(180deg);
+}
+
+.flipcard:hover::before,
+.flipcard:focus::before {
+  transform: rotateY(180deg);
+}
+
+.flipcard:hover img,
+.flipcard:focus img {
+  transform: rotateY(360deg);
+}
+
+.flipcard.fire {
+  --card-bg: url("https://i.imgur.com/EHsEVKg.jpeg");
+}
+
+.flipcard.law {
+  --card-bg: url("https://i.imgur.com/UDrkVRM.jpeg");
+}
+
+.flipcard.legal {
+  --card-bg: url("https://i.imgur.com/LALbmHz.jpeg");
+}
+
+.flipcard.general {
+  --card-bg: url("https://i.imgur.com/Qq1p3uE.jpeg");
+}
+
+.flipcard.medical {
+  --card-bg: url("https://i.imgur.com/SrNs8Xz.jpeg");
+}
